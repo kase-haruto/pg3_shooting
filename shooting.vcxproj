@@ -109,6 +109,16 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
+    <ClCompile Include="Game\Adapter\InputManager.cpp" />
+    <ClCompile Include="Game\Object\BaseGameObject.cpp" />
+    <ClCompile Include="Game\Object\Enemy.cpp" />
+    <ClCompile Include="Game\Object\Player.cpp" />
+    <ClCompile Include="Game\Object\PlayerBullet.cpp" />
+    <ClCompile Include="Game\Scene\ClearScene.cpp" />
+    <ClCompile Include="Game\Scene\IScene.cpp" />
+    <ClCompile Include="Game\Scene\PlayScene.cpp" />
+    <ClCompile Include="Game\Scene\SceneManager.cpp" />
+    <ClCompile Include="Game\Scene\TitleScene.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +149,16 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\DirectXGame\input\Input.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\scene\GameScene.h" />
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
+    <ClInclude Include="Game\Adapter\InputManager.h" />
+    <ClInclude Include="Game\Object\BaseGameObject.h" />
+    <ClInclude Include="Game\Object\Enemy.h" />
+    <ClInclude Include="Game\Object\Player.h" />
+    <ClInclude Include="Game\Object\PlayerBullet.h" />
+    <ClInclude Include="Game\Scene\ClearScene.h" />
+    <ClInclude Include="Game\Scene\IScene.h" />
+    <ClInclude Include="Game\Scene\PlayScene.h" />
+    <ClInclude Include="Game\Scene\SceneManager.h" />
+    <ClInclude Include="Game\Scene\TitleScene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
